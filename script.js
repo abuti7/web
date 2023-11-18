@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     registrationForm.addEventListener("submit", function (e) {
         e.preventDefault();
         if (validateForm()) {
-            alert("Registration successful!");
+          location.href='login.html';
         }
     });
     
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loginForm.addEventListener("submit", function (e) {
         e.preventDefault();
         if (validateForm()) {
-            alert("Login successful!"); 
+            location.href='index.html'; 
         }
     });
     googleLink.addEventListener("click", function (e) {
