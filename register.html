@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+		<div class="logo">
+<img src="img/vector1103-syt5.svg" style="height: 40px;">
+<img src="img/frame1102-0dua.svg" >
+		</div>
+        <h2>Create an Account</h2>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username here">
+				<div id="username-error" class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email here">
+				<div id="email-error" class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password here">
+				<div id="password-error" class="error"></div>
+            </div>
+            <button type="submit">Register</button><br/>
+        </form>
+		<i>Already have an account ?  <a href="login.html"style="color:hsla(28, 26%, 59%, 0.5);">Login</a></i>
+		<div class="google-signup">
+            <p><b>-OR-</b></p>
+            <a href="#" id="google-link"> <span>
+				<img src="img/google-logo.png" style="height: 25px;">
+				Sign up with Google
+			</span></a>
+		</div>
+    </div>
+    <script src="Js/script.js"></script>
+</body>
+</html>
